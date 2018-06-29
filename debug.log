@@ -1,0 +1,11 @@
+[0613/151636.415:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: 管道正在被关闭。 (0xE8)
+[0616/162752.754:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: 管道正在被关闭。 (0xE8)
+[0618/140852.475:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: 管道正在被关闭。 (0xE8)
+[0621/105203.866:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: 管道正在被关闭。 (0xE8)
+[0621/183031.363:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: 管道正在被关闭。 (0xE8)
+[0630/153340.880:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: 管道正在被关闭。 (0xE8)
+[0706/142315.847:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: 管道正在被关闭。 (0xE8)
+[0728/144253.103:ERROR:process_info.cc(631)] range at 0xd71a775600000000, size 0x280 fully unreadable
+[0728/144253.104:ERROR:process_info.cc(631)] range at 0xd71a77be00000000, size 0x280 fully unreadable
+[0728/144253.104:ERROR:process_info.cc(631)] range at 0x0, size 0x280 fully unreadable
+[0728/144459.216:ERROR:http_transport_win.cc(267)] WinHttpSendRequest: 操作超时  (0x2ee2)
