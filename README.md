@@ -1,2 +1,0 @@
-# vue-raincode
-raincode
