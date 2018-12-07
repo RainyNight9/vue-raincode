@@ -50,13 +50,26 @@
           </el-submenu>
 
 
-          <el-menu-item index="4" disabled>
-            <i class="el-icon-document"></i>
-            <span slot="title">导航三</span>
-          </el-menu-item>
+          <el-submenu index="3">
+            <template slot="title">
+              <i class="el-icon-document"></i>
+              <span>面试题</span>
+            </template>
+            <el-menu-item-group>
+              <template slot="title">js问题</template>
+              <el-menu-item index="3-1" @click="goMenu('/jsView')">jsView</el-menu-item>
+            </el-menu-item-group>
+            <el-menu-item-group title="分组2">
+              <el-menu-item index="3-3">css问题</el-menu-item>
+            </el-menu-item-group>
+          </el-submenu>
           <el-menu-item index="5">
             <i class="el-icon-setting"></i>
             <span slot="title">导航四</span>
+          </el-menu-item>
+          <el-menu-item index="6" disabled>
+            <i class="el-icon-document"></i>
+            <span slot="title">导航五</span>
           </el-menu-item>
         </el-menu>
       </el-col>

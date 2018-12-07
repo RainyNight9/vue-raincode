@@ -23,6 +23,11 @@ const tripShare = (resolve) => { // tripShare
     resolve(module);
   });
 };
+const jsView = (resolve) => { // jsView
+  import('@/components/gaode/jsView.vue').then((module) => {
+    resolve(module);
+  });
+};
 
 export default new Router({
   routes: [
@@ -50,6 +55,11 @@ export default new Router({
       name: 'tripShare',
       path: '/tripShare',
       component: tripShare,
+    },
+    {
+      name: 'jsView',
+      path: '/jsView',
+      component: jsView,
     },
   ],
 });
